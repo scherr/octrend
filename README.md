@@ -14,18 +14,23 @@ Prototype (./protoype)
 This implementations uses direct mode and is properly the best documented one.
 
 The example scene:
+
 ![The example scene](/screenshot0.png?raw=true)
 
 Farther away:
+
 ![Farther away](/screenshot1.png?raw=true)
 
 Closer:
+
 ![Closer](/screenshot2.png?raw=true)
 
 Light with shadows (very slow!):
+
 ![Light with shadows (very slow!)](/screenshot3.png?raw=true)
 
 Another shadow:
+
 ![Another shadow](/screenshot4.png?raw=true)
 
 
@@ -39,15 +44,19 @@ The shader implementation uses flat squares instead of cubes for rendering. Sadl
 I do not have the appropriate hardware (anymore) to test this implementation or show screenshots of it.
 
 A voxel landscape (by ???):
+
 ![A voxel landscape (by ???)](/screenshot5.png?raw=true)
 
 More detail:
+
 ![More detail](/screenshot6.png?raw=true)
 
 Wild voxel models (by [Ken Silverman](http://advsys.net/ken/)) appear:
+
 ![Wild voxel models (by Ken Silverman) appear](/screenshot7.png?raw=true)
 
 More detail:
+
 ![More detail](/screenshot8.png?raw=true)
 
 
