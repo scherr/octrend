@@ -198,13 +198,13 @@ plane calculatePlane(floatVector pointA, floatVector pointB, floatVector pointC)
 	/* Cross product depends on coordinate system. Switch parameters if needed.
 	 *
 	 *  z    x  our coordinate system
-     *  *   *
-     *  *  *
-     *  * *
-     *  **
-     *  o****y
-     *
-     */
+	 *  *   *
+	 *  *  *
+	 *  * *
+	 *  **
+	 *  o****y
+	 *
+	 */
 	floatVector normal = normalizeFloatVector(crossProductFloatVector(dirAC, dirAB));
 	
 	resultPlane.a = normal.x;

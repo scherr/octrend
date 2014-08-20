@@ -146,13 +146,13 @@ Plane			planeConstruct(Vector pointA, Vector pointB, Vector pointC) {
 	/* Cross product depends on coordinate system. Switch parameters if needed.
 	 *
 	 *  z    x  our coordinate system
-     *  *   *
-     *  *  *
-     *  * *
-     *  **
-     *  o****y
-     *
-     */
+	 *  *   *
+	 *  *  *
+	 *  * *
+	 *  **
+	 *  o****y
+	 *
+	 */
 	Vector normal = vectorNormalize(vectorCrossProduct(dirAC, dirAB));
 	
 	resPlane.a = normal.x;
