@@ -63,4 +63,4 @@ More detail:
 Data
 ---
 
-Model data is taken from Ken Sivlerman's (SLAB6)[http://advsys.net/ken/download.htm#slab6]. I cannot remember the origin of the height and texture map data and would be happy about pointers for proper attribution.
+Model data is taken from Ken Sivlerman's [SLAB6](http://advsys.net/ken/download.htm#slab6). I cannot remember the origin of the height and texture map data and would be happy about pointers for proper attribution.
