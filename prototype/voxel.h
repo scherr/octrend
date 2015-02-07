@@ -18,19 +18,19 @@
  *
  */
 typedef struct voxel {
-	float colRed;
-	float colGreen;
-	float colBlue;
-	float colAlpha;
-	char lighting;
-	
-	// Annotations:
-	unsigned char facesFlag;
-	unsigned char levelFacesFlag;
-	floatVector vertices[8];
-	floatVector center;
-	floatVector faces[6];
-	float radius;
+    float colRed;
+    float colGreen;
+    float colBlue;
+    float colAlpha;
+    char lighting;
+
+    // Annotations:
+    unsigned char facesFlag;
+    unsigned char levelFacesFlag;
+    floatVector vertices[8];
+    floatVector center;
+    floatVector faces[6];
+    float radius;
 } voxel;
 
 voxel *createVoxel(float colRed, float colGreen, float colBlue, float colAlpha, char lighting);

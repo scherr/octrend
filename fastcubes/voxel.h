@@ -33,13 +33,13 @@
 #define VOXEL_DISPLAY_VOXEL_DEPTH 2
 
 typedef struct Voxel {
-	struct Voxel	*parent;
-	unsigned int	properties;
-	unsigned char	red;
-	unsigned char	green;
-	unsigned char	blue;
-	unsigned char	childCount;
-	struct Voxel	**children;
+    struct Voxel	*parent;
+    unsigned int	properties;
+    unsigned char	red;
+    unsigned char	green;
+    unsigned char	blue;
+    unsigned char	childCount;
+    struct Voxel	**children;
 } Voxel;
 
 Voxel					*voxelCreate(float red, float green, float blue);

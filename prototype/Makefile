@@ -11,5 +11,5 @@ main: linalg.o octree.o voxel.o scene.o rendering.o main.o
 *.o: *.c
 
 clean:
-	rm -f *.o
-	rm -f main
+    rm -f *.o
+    rm -f main

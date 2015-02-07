@@ -14,25 +14,25 @@
 #include "voxel.h"
 
 typedef struct Camera {
-	Vector position;
-	Vector forward;
-	Vector right;
-	Vector up;
-	float zoom;
-	float fieldOfView;
-	float nearDist;
-	float farDist;
-	float nearHeight;
-	float nearWidth;
-	float farHeight;
-	float farWidth;
-	Plane frustrum[6];
+    Vector position;
+    Vector forward;
+    Vector right;
+    Vector up;
+    float zoom;
+    float fieldOfView;
+    float nearDist;
+    float farDist;
+    float nearHeight;
+    float nearWidth;
+    float farHeight;
+    float farWidth;
+    Plane frustrum[6];
 } Camera;
 
 typedef struct Scene {
-	Voxel *root;
-	float rootSize;
-	Camera camera;
+    Voxel *root;
+    float rootSize;
+    Camera camera;
 } Scene;
 
 Camera			cameraLiteral(Vector position, Vector forward, Vector right, Vector up, float zoom, float fieldOfView, float nearDist, float farDist);

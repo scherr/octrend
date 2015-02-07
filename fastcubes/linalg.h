@@ -10,9 +10,9 @@
 #include <math.h>
 
 typedef struct Vector {
-	float x;
-	float y;
-	float z;
+    float x;
+    float y;
+    float z;
 } Vector;
 
 Vector			vectorLiteral(float x, float y, float z);
@@ -30,10 +30,10 @@ float			vectorDistance(Vector pointA, Vector pointB);
 Vector			vectorRotate(Vector axisPoint, Vector axisDir, Vector pointToRotate, float angle);
 
 typedef struct Plane {
-	float a;
-	float b;
-	float c;
-	float d;
+    float a;
+    float b;
+    float c;
+    float d;
 } Plane;
 
 Plane			planeConstruct(Vector pointA, Vector pointB, Vector pointC);

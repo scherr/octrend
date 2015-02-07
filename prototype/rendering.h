@@ -30,11 +30,11 @@ extern unsigned char facesLookupTable[64][25];
  *
  */
 typedef struct renderSettings {
-	scene scene;
-	float viewWidth;
-	float viewHeight;
-	unsigned char maxDetailLevel;
-	float detailBorders[8];
+    scene scene;
+    float viewWidth;
+    float viewHeight;
+    unsigned char maxDetailLevel;
+    float detailBorders[8];
 } renderSettings;
 
 /* Not documented yet.

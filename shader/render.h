@@ -23,13 +23,13 @@
 #define STRINGIFY(A) #A
 
 typedef struct RenderEnv {
-	Scene scene;
-	float viewWidth;
-	float viewHeight;
-	unsigned short maxDrawDepth;
-	float highMediumDetailBorder;
-	float mediumLowDetailBorder;
-	unsigned int shaderProgram;
+    Scene scene;
+    float viewWidth;
+    float viewHeight;
+    unsigned short maxDrawDepth;
+    float highMediumDetailBorder;
+    float mediumLowDetailBorder;
+    unsigned int shaderProgram;
 } RenderEnv;
 
 RenderEnv *renderInit(Scene scene, unsigned short maxDrawDepth, float highMediumDetailBorder, float mediumLowDetailBorder);

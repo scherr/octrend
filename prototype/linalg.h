@@ -13,112 +13,112 @@
  *
  */
 typedef struct intVector {
-	int x;
-	int y;
-	int z;
+    int x;
+    int y;
+    int z;
 } intVector;
 
 /* Not documented yet.
  *
  */
 typedef struct intExtendedVector {
-	int x;
-	int y;
-	int z;
-	float length;
+    int x;
+    int y;
+    int z;
+    float length;
 } intExtendedVector;
 
 /* Not documented yet.
  *
  */
 typedef struct floatVector {
-	float x;
-	float y;
-	float z;
+    float x;
+    float y;
+    float z;
 } floatVector;
 
 /* Not documented yet.
  *
  */
 typedef struct floatExtendedVector {
-	float x;
-	float y;
-	float z;
-	float length;
+    float x;
+    float y;
+    float z;
+    float length;
 } floatExtendedVector;
 
 /* Not documented yet.
  *
  */
 typedef struct doubleVector {
-	double x;
-	double y;
-	double z;
+    double x;
+    double y;
+    double z;
 } doubleVector;
 
 /* Not documented yet.
  *
  */
 typedef struct doubleExtendedVector {
-	double x;
-	double y;
-	double z;
-	double length;
+    double x;
+    double y;
+    double z;
+    double length;
 } doubleExtendedVector;
 
 /* Not documented yet.
  *
  */
 typedef struct intMatrix {
-	int x1;
-	int x2;
-	int x3;
-	int y1;
-	int y2;
-	int y3;
-	int z1;
-	int z2;
-	int z3;
+    int x1;
+    int x2;
+    int x3;
+    int y1;
+    int y2;
+    int y3;
+    int z1;
+    int z2;
+    int z3;
 } intMatrix;
 
 /* Not documented yet.
  *
  */
 typedef struct floatMatrix {
-	float x1;
-	float x2;
-	float x3;
-	float y1;
-	float y2;
-	float y3;
-	float z1;
-	float z2;
-	float z3;
+    float x1;
+    float x2;
+    float x3;
+    float y1;
+    float y2;
+    float y3;
+    float z1;
+    float z2;
+    float z3;
 } floatMatrix;
 
 /* Not documented yet.
  *
  */
 typedef struct doubleMatrix {
-	double x1;
-	double x2;
-	double x3;
-	double y1;
-	double y2;
-	double y3;
-	double z1;
-	double z2;
-	double z3;
+    double x1;
+    double x2;
+    double x3;
+    double y1;
+    double y2;
+    double y3;
+    double z1;
+    double z2;
+    double z3;
 } doubleMatrix;
 
 /* Not documented yet.
  *
  */
 typedef struct plane {
-	float a;
-	float b;
-	float c;
-	float d;
+    float a;
+    float b;
+    float c;
+    float d;
 } plane;
 
 intVector intVectorLiteral(int x, int y, int z);

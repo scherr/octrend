@@ -36,13 +36,13 @@
 #define VOXEL_LOW_DETAIL_MAX_DRAW_DEPTH_DISTANCE    2
 
 typedef struct Voxel {
-	struct Voxel	*parent;
-	unsigned int	properties;
-	unsigned char	red;
-	unsigned char	green;
-	unsigned char	blue;
-	unsigned char	childCount;
-	struct Voxel	**children;
+    struct Voxel	*parent;
+    unsigned int	properties;
+    unsigned char	red;
+    unsigned char	green;
+    unsigned char	blue;
+    unsigned char	childCount;
+    struct Voxel	**children;
 } Voxel;
 
 Voxel					*voxelCreate(float red, float green, float blue);

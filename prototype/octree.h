@@ -161,13 +161,13 @@
  *
  */
 typedef struct octree {
-	unsigned char level;
-	unsigned char position;
-	struct octree *parent;
-	unsigned char childCount;
-	struct octree *children[8];
-	void *value;
-	unsigned char terminal;
+    unsigned char level;
+    unsigned char position;
+    struct octree *parent;
+    unsigned char childCount;
+    struct octree *children[8];
+    void *value;
+    unsigned char terminal;
 } octree;
 
 /* Not documented yet.
@@ -191,7 +191,7 @@ int compressOctreeUpward(octree *node, unsigned char level, int (*equalValues)(v
 intVector getOctreeCoordinates(octree *node, unsigned char topLevel, intVector topCoordinates);
 octree *findTerminalOctree(intVector coordinates, unsigned char terminalLevel, octree *topNode, intVector topCoordinates);
 octree *addTerminalOctree(intVector coordinates, unsigned char level, void *value, octree *topNode, intVector topCoordinates,
-		int (*deleteValue)(void *), void *(*cloneValue)(void *));
+        int (*deleteValue)(void *), void *(*cloneValue)(void *));
 intVector getVirtualOctreeCoordinates(octree node, unsigned char topLevel, intVector topCoordinates);
 octree findVirtualOctree(intVector coordinates, unsigned char terminalLevel, octree *topNode, intVector topCoordinates);
 octree findNeighbour(octree currentVirtualNode, intVector direction);
